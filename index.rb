@@ -27,6 +27,8 @@ list_titles.each do |title|
       name: title,
       lat: data[0]['lat'],
       lon: data[0]['lon'],
+      desc: data[0]['display_name'],
+      url: uri
     })
   else
     puts data
