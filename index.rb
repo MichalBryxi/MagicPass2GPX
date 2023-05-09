@@ -27,7 +27,6 @@ list_titles.each do |title|
       name: title,
       lat: data[0]['lat'],
       lon: data[0]['lon'],
-      sym: 'Waypoint'
     })
   else
     puts data
