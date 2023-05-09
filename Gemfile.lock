@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/dougfales/gpx.git
+  revision: dd6a15ea0497bd7a18e78cdbff380bed48846fca
+  specs:
+    gpx (1.0.0)
+      nokogiri (~> 1.7)
+      rake
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -7,12 +15,14 @@ GEM
       racc (~> 1.4)
     public_suffix (5.0.1)
     racc (1.6.2)
+    rake (13.0.6)
 
 PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
   addressable (~> 2.8)
+  gpx!
   nokogiri (~> 1.14)
 
 BUNDLED WITH
