@@ -10,21 +10,21 @@ OUTPUT_FILE = './Magic Pass.gpx'
 
 list_page = Nokogiri::HTML.parse(URI.open(LIST_URL))
 list_links = list_page.search('.rounded-aio-block.overflow-hidden.group.border.relative')
-list_titles = list_links.map { |item| item['title'] }
+places = list_links.map { |item| { name: item['title'], county: item.search('..flex > .flex > .text-gray-500.text-xs.block.break-words').text.trim } }
 gpx_file = GPX::GPXFile.new
 
-list_titles.each do |title|
-  puts "Processing %s" % [title]
+places.each do |place|
+  puts "Processing %s" % [place['name']]
   template = Addressable::Template.new(GEOCODE_TEMPLATE)
   uri = template.expand({
     'query' => {
-      'q' => title,
+      'q' => `%s, %s, Switzerland` % [place['county'], place['name']],
     }
   })
   data = JSON.load(URI.open(uri))
   if data[0]
     gpx_file.waypoints << GPX::Waypoint.new({
-      name: title,
+      name: place['name'],
       lat: data[0]['lat'],
       lon: data[0]['lon'],
       desc: data[0]['display_name'],
