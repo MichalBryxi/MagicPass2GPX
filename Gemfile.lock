@@ -11,6 +11,10 @@ GEM
   specs:
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
+    mini_portile2 (2.8.2)
+    nokogiri (1.14.3)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
     public_suffix (5.0.1)
@@ -18,7 +22,9 @@ GEM
     rake (13.0.6)
 
 PLATFORMS
+  ruby
   x86_64-darwin-20
+  x86_64-darwin-21
   x86_64-darwin-22
 
 DEPENDENCIES
