@@ -9,10 +9,6 @@ Latest processed file is available at [Magic Pass.gpx][3].
 ```sh
 brew install rbenv
 brew install openssl
-
-# See: https://github.com/rbenv/ruby-build/discussions/2061
-mkdir -p  /usr/local/etc/openssl/certs/
-ln -s /usr/local/etc/openssl@3/cert.pem /usr/local/etc/openssl/certs/cert.pem 
 ```
 
 ## Installation
