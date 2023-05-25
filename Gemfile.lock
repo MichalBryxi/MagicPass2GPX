@@ -1,16 +1,11 @@
-GIT
-  remote: https://github.com/dougfales/gpx.git
-  revision: dd6a15ea0497bd7a18e78cdbff380bed48846fca
-  specs:
-    gpx (1.0.0)
-      nokogiri (~> 1.7)
-      rake
-
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
+    gpx (1.1.1)
+      nokogiri (~> 1.7)
+      rake
     mini_portile2 (2.8.2)
     nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
@@ -29,7 +24,7 @@ PLATFORMS
 
 DEPENDENCIES
   addressable (~> 2.8)
-  gpx!
+  gpx (~> 1.1)
   nokogiri (~> 1.14)
 
 BUNDLED WITH

@@ -8,4 +8,4 @@ gem "nokogiri", "~> 1.14"
 
 gem "addressable", "~> 2.8"
 
-gem "gpx", git: 'https://github.com/dougfales/gpx.git'
+gem "gpx", "~> 1.1"

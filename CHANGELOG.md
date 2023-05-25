@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.1] - 2023-05-25
+
+### Fixed
+
+- Rubygem `gpx` is now not pinned to GitHub URL, but [to v1.1.0](https://github.com/dougfales/gpx/issues/48#event-9285426721)
+
 ## [0.2.0] - 2023-05-20
 
 ### Added
