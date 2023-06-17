@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.1.1 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2023-05-25T07:15:14+02:00</time>
+    <time>2023-06-17T10:00:00+02:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6415918" lon="7.7366497">
@@ -93,7 +93,7 @@
   <wpt lat="46.57316" lon="7.4851984">
     <name>Grimmialp</name>
     <desc>Grimmialp, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico20</sym>
   </wpt>
   <wpt lat="46.225128" lon="7.9027064">
     <name>Gspon</name>
@@ -118,7 +118,7 @@
   <wpt lat="46.6113953" lon="7.2761312">
     <name>Jaun</name>
     <desc>Jaun, District de la Gruyère, Fribourg/Freiburg, 1656, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.5921588" lon="7.3390803">
     <name>Jaunpass</name>
@@ -133,7 +133,7 @@
   <wpt lat="46.5885474" lon="7.7246488">
     <name>Kiental</name>
     <desc>Kiental, Reichenbach im Kandertal, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3723, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico20</sym>
   </wpt>
   <wpt lat="46.6760352" lon="7.1839627">
     <name>La Berra</name>
@@ -158,7 +158,7 @@
   <wpt lat="46.1129171" lon="7.0090229">
     <name>Les Marécottes</name>
     <desc>Les Marécottes, Salvan, Saint-Maurice, Valais/Wallis, 1923, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3960939" lon="7.1018391">
     <name>Les Mosses</name>
@@ -176,24 +176,24 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.4318192" lon="6.976051">
-    <name>Les Rochers-de-Naye</name>
+    <name>Les Rochers - de - Naye</name>
     <desc>Rochers de Naye, Veytaux, District de la Riviera-Pays-d’Enhaut, Vaud, 1820, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.3793158" lon="7.6267416">
     <name>Leukerbad (Torrent &amp; Gemmi)</name>
     <desc>Leukerbad, Leuk, Valais/Wallis, 3954, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3438701" lon="7.0148403">
     <name>Leysin</name>
     <desc>Leysin, District d'Aigle, Vaud, 1854, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.8345927" lon="7.9058214">
     <name>Marbachegg</name>
     <desc>Marbachegg, Escholzmatt-Marbach, Luzern, 6196, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico20</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.2808631" lon="7.3117763">
     <name>Mayens de Conthey</name>
@@ -233,7 +233,7 @@
   <wpt lat="46.1989846" lon="7.1723377">
     <name>Ovronnaz</name>
     <desc>Ovronnaz, Leytron, Martigny, Valais/Wallis, 1911, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.153439" lon="7.176948">
     <name>Prés-d'Orvin</name>
@@ -273,7 +273,7 @@
   <wpt lat="46.1009456" lon="7.9513161">
     <name>Saas-Fee / Saas-Almagell</name>
     <desc>Saas-Almagell, Alpien, Saas-Fee, Saas-Almagell, Visp, Valais/Wallis, 3905, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.66513645" lon="7.280643975442837">
     <name>Schwarzsee</name>
@@ -328,7 +328,7 @@
   <wpt lat="46.2589888" lon="7.9030118">
     <name>Visperterminen</name>
     <desc>Visperterminen, Visp, Valais/Wallis, 3932, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.5801904" lon="7.5297689">
     <name>Wiriehorn</name>
