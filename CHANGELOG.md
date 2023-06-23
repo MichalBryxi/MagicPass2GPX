@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.0] - 2023-06-23
+
+### Added
+
+- The logging output now shows three emojis to tell the state of given place:
+   - 🚪 - closed
+   - 🪂 - open
+   - 🤷 - partially open
+
 ## [0.2.1] - 2023-05-25
 
 ### Fixed

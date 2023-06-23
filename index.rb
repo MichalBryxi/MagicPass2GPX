@@ -13,9 +13,9 @@ LIST_CSS = '.rounded-aio-block.overflow-hidden.group.border.relative'
 COUNTY_CSS = '.text-gray-500.text-xs.block.break-words'
 STATUS_CSS = '.opening-state'
 STATUS_ICONS = {
-  Open: 'z-ico13',
-  Closed: 'z-ico02',
-  Partially: 'z-ico20'
+  Open: { icon: 'z-ico13', emoji: '🪂' },
+  Closed: { icon: 'z-ico02', emoji: '🚪' },
+  Partially: { icon: 'z-ico20', emoji: '🤷'}
 }
 
 gpx_file = GPX::GPXFile.new
@@ -60,14 +60,14 @@ places.each do |place|
   if data
     waypoint = {
       name: place[:name],
-      sym: STATUS_ICONS[place[:state].to_sym],
+      sym: STATUS_ICONS[place[:state].to_sym][:icon],
       lat: data['lat'],
       lon: data['lon'],
-      desc: data['display_name'],
+      desc: data['display_name']
     }
     gpx_file.waypoints << GPX::Waypoint.new(waypoint)
 
-    puts format('✅ %<name>s', name: place[:name])
+    puts format('%<emoji>s %<name>s', name: place[:name], emoji: STATUS_ICONS[place[:state].to_sym][:emoji])
   else
     puts format('❌ %<name>s', name: place[:name])
   end
