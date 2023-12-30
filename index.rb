@@ -66,11 +66,11 @@ places.each do |place|
   data = geocode(place[:name], place[:county])
   if data
     waypoint = {
-      name: place[:name],
+      name: "#{place[:name]}, #{place[:snow]}",
       sym: STATUS_ICONS[place[:state].to_sym][:icon],
       lat: data['lat'],
       lon: data['lon'],
-      desc: "#{data['display_name']}, #{place[:snow]}",
+      desc: data['display_name'],
     }
     gpx_file.waypoints << GPX::Waypoint.new(waypoint)
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.1] - 2023-12-30
+
+### Fixed
+
+- Snow situation is now directly in point name.
+
 ## [0.4.0] - 2023-12-30
 
 ### Fixed
