@@ -5,6 +5,7 @@ require 'open-uri'
 require 'addressable/template'
 require 'json'
 require 'gpx'
+require 'dotenv/load'
 
 LIST_URL = 'https://www.magicpass.ch/en/stations'
 GEOCODE_TEMPLATE = 'https://geocode.maps.co/search/{?query*}'
@@ -12,21 +13,25 @@ OUTPUT_FILE = './Magic Pass.gpx'
 LIST_CSS = '.rounded-aio-block.overflow-hidden.group.border.relative'
 COUNTY_CSS = '.text-gray-500.text-xs.block.break-words'
 STATUS_CSS = '.opening-state'
+SNOW_CSS = '.flex.gap-x-6.items-center .font-bold'
 STATUS_ICONS = {
   Open: { icon: 'z-ico13', emoji: '🪂' },
   Closed: { icon: 'z-ico02', emoji: '🚪' },
   Partially: { icon: 'z-ico20', emoji: '🤷'}
 }
+API_KEY = ENV['API_KEY']
 
 gpx_file = GPX::GPXFile.new
 
 list_page = Nokogiri::HTML.parse(URI.open(LIST_URL))
 list_links = list_page.search(LIST_CSS)
+
 places = list_links.map do |item|
   {
     name: item['title'],
     county: item.search(COUNTY_CSS).text.strip,
-    state: item.search(STATUS_CSS).text.strip
+    state: item.search(STATUS_CSS).text.strip,
+    snow: item.search(SNOW_CSS)[1]&.text&.strip,
   }
 end
 
@@ -45,9 +50,11 @@ end
 def geocode_string(query_string)
   query = {
     query: {
-      q: query_string
+      q: query_string,
+      api_key: API_KEY,
     }
   }
+  sleep 1
   template = Addressable::Template.new(GEOCODE_TEMPLATE)
   uri = template.expand(query)
   data = JSON.parse(URI.open(uri).read)[0]
@@ -63,7 +70,7 @@ places.each do |place|
       sym: STATUS_ICONS[place[:state].to_sym][:icon],
       lat: data['lat'],
       lon: data['lon'],
-      desc: data['display_name']
+      desc: "#{data['display_name']}, #{place[:snow]}",
     }
     gpx_file.waypoints << GPX::Waypoint.new(waypoint)
 
@@ -71,8 +78,6 @@ places.each do |place|
   else
     puts format('❌ %<name>s', name: place[:name])
   end
-
-  sleep 2
 end
 
 gpx_file.write(OUTPUT_FILE)

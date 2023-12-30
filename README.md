@@ -14,6 +14,8 @@ brew install openssl
 ## Installation
 ```sh
 bundle install
+cp .env.example .env
+vim .env # Edit API_KEY
 ```
 
 ## Usage

@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.4.0] - 2023-12-30
+
+### Fixed
+
+- Geolocation provider now requires API_KEY.
+- Correctly implemented waiting for API throttling.
+
+### Added
+
+- GPX description now contains current snow conditions.
+
 ## [0.3.0] - 2023-06-23
 
 ### Added
