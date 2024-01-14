@@ -37,7 +37,7 @@ end
 
 def geocode(name, county)
   county_and_name = format('%<county>s, %<name>s', county: county, name: name)
-  parts_of_name = name.match(/(.*)\((.*)\)(.*)/)
+  parts_of_name = name.match(/(.*)[\(-](.*)[\)-](.*)/)
   data = geocode_string(county_and_name)
   data ||= geocode_string(name)
   data ||= geocode_string(parts_of_name[0])
