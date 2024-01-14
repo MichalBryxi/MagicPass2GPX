@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.2] - 2023-01-14
+
+### Added
+
+- Snow levels are now with cute snowflake emoji.
+
+### Fixed
+
+- Script is now more resilient by being able to work with dashes in place name (as well as with brackets).
+
 ## [0.4.1] - 2023-12-30
 
 ### Fixed
