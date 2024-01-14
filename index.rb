@@ -66,7 +66,7 @@ places.each do |place|
   data = geocode(place[:name], place[:county])
   if data
     waypoint = {
-      name: "#{place[:name]}, #{place[:snow]}",
+      name: "#{place[:name]}, ❄️ #{place[:snow]}",
       sym: STATUS_ICONS[place[:state].to_sym][:icon],
       lat: data['lat'],
       lon: data['lon'],
@@ -74,7 +74,7 @@ places.each do |place|
     }
     gpx_file.waypoints << GPX::Waypoint.new(waypoint)
 
-    puts format('%<emoji>s %<name>s', name: place[:name], emoji: STATUS_ICONS[place[:state].to_sym][:emoji])
+    puts format('%<emoji>s %<name>s, ❄️ %<snow>s', name: place[:name], emoji: STATUS_ICONS[place[:state].to_sym][:emoji], snow: place[:snow])
   else
     puts format('❌ %<name>s', name: place[:name])
   end
