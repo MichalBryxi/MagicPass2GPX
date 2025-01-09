@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
+    csv (3.3.2)
     dotenv (2.8.1)
     gpx (1.2.0)
       nokogiri (~> 1.7)
@@ -39,8 +40,9 @@ PLATFORMS
 
 DEPENDENCIES
   addressable (~> 2.8)
+  csv (~> 3.3.2)
   dotenv (~> 2.8.1)
-  gpx (~> 1.1)
+  gpx (~> 1.2.0)
   nokogiri (~> 1.14)
 
 BUNDLED WITH
