@@ -1,9 +1,9 @@
 name: Run script and commit result
 
 on:
-  workflow_dispatch: {} # manual run
+  workflow_dispatch: {}
   schedule:
-    - cron: "0 6 * * *" # every day at 06:00 UTC; adjust as you like
+    - cron: "0 17 * * 0" # Sundays 19:00 in Europe/Zurich during DST (CEST); 18:00 during winter (CET)
 
 permissions:
   contents: write # needed to push back to the repo
