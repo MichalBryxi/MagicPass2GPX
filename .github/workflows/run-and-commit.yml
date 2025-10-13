@@ -1,0 +1,49 @@
+name: Run script and commit result
+
+on:
+  workflow_dispatch: {} # manual run
+  schedule:
+    - cron: "0 6 * * *" # every day at 06:00 UTC; adjust as you like
+
+permissions:
+  contents: write # needed to push back to the repo
+
+jobs:
+  run-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # we’ll push back to main
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          # If you have a .ruby-version, this action will auto-detect it.
+          bundler-cache: true # caches gems based on Gemfile.lock
+
+      # Optional: OpenSSL headers for native builds (safe to keep)
+      - name: Install system packages (OpenSSL)
+        run: sudo apt-get update && sudo apt-get install -y libssl-dev
+
+      - name: Create .env from GitHub Secrets
+        run: |
+          printf "API_KEY=%s\n" "${{ secrets.API_KEY }}" > .env
+
+      - name: Run script
+        run: bundle exec ruby index.rb
+
+      - name: Commit & push changes (if any)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A
+            git commit -m "chore: run script & update artifacts [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
+          fi
