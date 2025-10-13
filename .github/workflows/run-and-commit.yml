@@ -1,32 +1,39 @@
-name: Run script and commit result
+name: Run script, convert GPX, and update README map
 
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 17 * * 0" # Sundays 19:00 in Europe/Zurich during DST (CEST); 18:00 during winter (CET)
+    - cron: "0 17 * * 0"      # Sundays 19:00 Europe/Zurich (UTC cron only)
 
 permissions:
-  contents: write # needed to push back to the repo
+  contents: write
+
+env:
+  GPX_PATH: "Magic Pass.gpx"
+  GEOJSON_PATH: "Magic Pass.geojson"
+  GEOJSON_PREVIEW: "Magic Pass.preview.geojson"
+  README_PATH: "README.md"
+  GEOJSON_MAX_POINTS: "1200"
 
 jobs:
   run-and-commit:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # we’ll push back to main
+          fetch-depth: 0
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          # If you have a .ruby-version, this action will auto-detect it.
-          bundler-cache: true # caches gems based on Gemfile.lock
+          bundler-cache: true
 
-      # Optional: OpenSSL headers for native builds (safe to keep)
-      - name: Install system packages (OpenSSL)
-        run: sudo apt-get update && sudo apt-get install -y libssl-dev
+      - name: Install system deps (OpenSSL + gpsbabel)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libssl-dev gpsbabel
 
       - name: Create .env from GitHub Secrets
         run: |
@@ -35,15 +42,107 @@ jobs:
       - name: Run script
         run: bundle exec ruby index.rb
 
-      - name: Commit & push changes (if any)
+      - name: Convert GPX -> GeoJSON
+        run: |
+          if [ ! -f "$GPX_PATH" ]; then
+            echo "ERROR: GPX file not found at: $GPX_PATH"
+            exit 1
+          fi
+          gpsbabel -i gpx -f "$GPX_PATH" -o geojson -F "$GEOJSON_PATH"
+
+      - name: Build README preview GeoJSON (thin points)
+        run: |
+          python3 - << 'PY'
+          import json, math, os
+          gpath = os.environ["GEOJSON_PATH"]
+          ppath = os.environ["GEOJSON_PREVIEW"]
+          max_points = int(os.environ.get("GEOJSON_MAX_POINTS","1200"))
+
+          with open(gpath, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          def thin(coords, limit):
+              n = len(coords)
+              if n <= limit: return coords
+              step = math.ceil(n/limit)
+              return coords[::step] if step>1 else coords
+
+          def process_geom(geom):
+              t = geom.get("type")
+              if t == "LineString":
+                  geom["coordinates"] = thin(geom["coordinates"], max_points)
+              elif t == "MultiLineString":
+                  parts = len(geom["coordinates"]) or 1
+                  per = max(50, max_points // parts)
+                  geom["coordinates"] = [thin(part, per) for part in geom["coordinates"]]
+              elif t in ("Polygon","MultiPolygon"):
+                  def thin_rings(rings):
+                      per = max(50, max_points // max(1,len(rings)))
+                      return [thin(r, per) for r in rings]
+                  if t == "Polygon":
+                      geom["coordinates"] = thin_rings(geom["coordinates"])
+                  else:
+                      geom["coordinates"] = [thin_rings(poly) for poly in geom["coordinates"]]
+              return geom
+
+          if data.get("type") == "FeatureCollection":
+              for feat in data.get("features", []):
+                  if "geometry" in feat and feat["geometry"]:
+                      feat["geometry"] = process_geom(feat["geometry"])
+          elif data.get("type") in ("Feature","LineString","MultiLineString","Polygon","MultiPolygon"):
+              if data.get("type") != "Feature":
+                  data = {"type":"Feature","geometry":process_geom(data),"properties":{}}
+              else:
+                  data["geometry"] = process_geom(data["geometry"])
+
+          with open(ppath, "w", encoding="utf-8") as f:
+              json.dump(data, f, separators=(",",":"))
+          PY
+
+      - name: Update README map block
+        run: |
+          PREVIEW=$(cat "$GEOJSON_PREVIEW")
+          START="<!-- BEGIN: AUTO-GEOJSON -->"
+          END="<!-- END: AUTO-GEOJSON -->"
+
+          BLOCK="$START
+\`\`\`geojson
+$PREVIEW
+\`\`\`
+$END"
+
+          if [ ! -f "$README_PATH" ]; then
+            echo "# MagicPass2GPX" > "$README_PATH"
+            echo "" >> "$README_PATH"
+          fi
+
+          if grep -q "$START" "$README_PATH"; then
+            python3 - "$README_PATH" "$START" "$END" "$BLOCK" << 'PY'
+import sys, re
+path, start, end, block = sys.argv[1:]
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+pattern = re.compile(re.escape(start)+r".*?"+re.escape(end), re.S)
+new = pattern.sub(block, text)
+with open(path, "w", encoding="utf-8") as f:
+    f.write(new)
+PY
+          else
+            {
+              echo ""
+              echo "## Route preview"
+              echo ""
+              echo "$BLOCK"
+              echo ""
+              echo "> This map block is auto-updated weekly from \`$GPX_PATH\`."
+              echo ""
+            } >> "$README_PATH"
+          fi
+
+      - name: Commit & push (always)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git add -A
-            git commit -m "chore: run script & update artifacts [skip ci]"
-            git push origin HEAD:main
-          else
-            echo "No changes to commit."
-          fi
+          git add -A
+          git commit --allow-empty -m "chore: weekly refresh (script+GeoJSON+README) [skip ci] $(date -u +%F)"
+          git push origin HEAD:main
