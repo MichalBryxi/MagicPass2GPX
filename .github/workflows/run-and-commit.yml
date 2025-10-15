@@ -109,7 +109,7 @@ jobs:
       - name: Update README map block (between markers)
         run: |
           python3 - <<'PY'
-          import os, re, json
+          import os, re
 
           readme_path = os.environ["README_PATH"]
           gpx_path = os.environ["GPX_PATH"]
@@ -133,7 +133,8 @@ jobs:
 
           if START in text and END in text:
               pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
-              text = pattern.sub(block, text)
+              # Use a function replacement so backslashes in 'block' aren't interpreted
+              text = pattern.sub(lambda m: block, text)
           else:
               addition = (
                   "\n## Route preview\n\n"
