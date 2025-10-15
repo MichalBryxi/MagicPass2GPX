@@ -27,10 +27,6 @@ vim .env # Edit API_KEY
 bundle exec ruby index.rb
 ```
 
-## Screenshots
-
-![Screenshot](docs/screenshot.png)
-
 ## Rendered
 
 <!-- BEGIN: AUTO-GEOJSON -->
