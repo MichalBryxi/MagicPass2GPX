@@ -1,19 +1,16 @@
-name: Run script, convert GPX, and update README map
+name: Run script, build preview, update README
 
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 17 * * 0" # Sundays 19:00 Europe/Zurich (UTC-only cron)
+    - cron: "0 17 * * 0" # Sundays 19:00 Europe/Zurich (UTC cron)
 
 permissions:
   contents: write
 
 env:
-  GPX_PATH: "Magic Pass.gpx"
-  GEOJSON_PATH: "Magic Pass.geojson"
-  GEOJSON_PREVIEW: "Magic Pass.preview.geojson"
   README_PATH: "README.md"
-  GEOJSON_MAX_POINTS: "1200"
+  PREVIEW_PATH: "Magic Pass.preview.geojson"
 
 jobs:
   run-and-commit:
@@ -36,75 +33,12 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Install system deps (OpenSSL + gpsbabel)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libssl-dev gpsbabel
-
       - name: Create .env from GitHub Secrets
         run: |
           printf "API_KEY=%s\n" "${{ secrets.API_KEY }}" > .env
 
-      - name: Run script
+      - name: Run script (produces GPX + .preview.geojson)
         run: bundle exec ruby index.rb
-
-      - name: Convert GPX -> GeoJSON
-        run: |
-          if [ ! -f "$GPX_PATH" ]; then
-            echo "ERROR: GPX file not found at: $GPX_PATH"
-            exit 1
-          fi
-          gpsbabel -i gpx -f "$GPX_PATH" -o geojson -F "$GEOJSON_PATH"
-
-      - name: Build README preview GeoJSON (thin points)
-        run: |
-          python3 - <<'PY'
-          import json, math, os
-          gpath = os.environ["GEOJSON_PATH"]
-          ppath = os.environ["GEOJSON_PREVIEW"]
-          max_points = int(os.environ.get("GEOJSON_MAX_POINTS","1200"))
-
-          with open(gpath, "r", encoding="utf-8") as f:
-              data = json.load(f)
-
-          def thin(coords, limit):
-              n = len(coords)
-              if n <= limit:
-                  return coords
-              step = math.ceil(n / limit)
-              return coords[::step] if step > 1 else coords
-
-          def process_geom(geom):
-              t = geom.get("type")
-              if t == "LineString":
-                  geom["coordinates"] = thin(geom["coordinates"], max_points)
-              elif t == "MultiLineString":
-                  parts = len(geom["coordinates"]) or 1
-                  per = max(50, max_points // parts)
-                  geom["coordinates"] = [thin(part, per) for part in geom["coordinates"]]
-              elif t in ("Polygon","MultiPolygon"):
-                  def thin_rings(rings):
-                      per = max(50, max_points // max(1,len(rings)))
-                      return [thin(r, per) for r in rings]
-                  if t == "Polygon":
-                      geom["coordinates"] = thin_rings(geom["coordinates"])
-                  else:
-                      geom["coordinates"] = [thin_rings(poly) for poly in geom["coordinates"]]
-              return geom
-
-          if data.get("type") == "FeatureCollection":
-              for feat in data.get("features", []):
-                  if "geometry" in feat and feat["geometry"]:
-                      feat["geometry"] = process_geom(feat["geometry"])
-          elif data.get("type") in ("Feature","LineString","MultiLineString","Polygon","MultiPolygon"):
-              if data.get("type") != "Feature":
-                  data = {"type":"Feature","geometry":process_geom(data),"properties":{}}
-              else:
-                  data["geometry"] = process_geom(data["geometry"])
-
-          with open(ppath, "w", encoding="utf-8") as f:
-              json.dump(data, f, separators=(",",":"))
-          PY
 
       - name: Update README map block (between markers)
         run: |
@@ -112,39 +46,37 @@ jobs:
           import os, re
 
           readme_path = os.environ["README_PATH"]
-          gpx_path = os.environ["GPX_PATH"]
-          preview_path = os.environ["GEOJSON_PREVIEW"]
+          preview_path = os.environ["PREVIEW_PATH"]
 
           START = "<!-- BEGIN: AUTO-GEOJSON -->"
-          END = "<!-- END: AUTO-GEOJSON -->"
+          END   = "<!-- END: AUTO-GEOJSON -->"
 
-          # Load (or init) README
-          if os.path.exists(readme_path):
-              with open(readme_path, "r", encoding="utf-8") as f:
-                  text = f.read()
-          else:
-              text = "# MagicPass2GPX\n\n"
+          if not os.path.exists(preview_path):
+            raise SystemExit(f"Preview file not found: {preview_path}")
 
-          # Read preview JSON and embed as fenced geojson block
           with open(preview_path, "r", encoding="utf-8") as f:
-              preview = f.read().strip()
+            preview = f.read().strip()
+
+          if os.path.exists(readme_path):
+            with open(readme_path, "r", encoding="utf-8") as f:
+              text = f.read()
+          else:
+            text = "# MagicPass2GPX\n\n"
 
           block = f"{START}\n```geojson\n{preview}\n```\n{END}"
 
           if START in text and END in text:
-              pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
-              # Use a function replacement so backslashes in 'block' aren't interpreted
-              text = pattern.sub(lambda m: block, text)
+            pat = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
+            text = pat.sub(lambda m: block, text)
           else:
-              addition = (
-                  "\n## Route preview\n\n"
-                  f"{block}\n\n"
-                  f"> This map block is auto-updated weekly from `{gpx_path}`.\n\n"
-              )
-              text += addition
+            text += (
+              "\n## Route preview\n\n"
+              f"{block}\n\n"
+              f"> This map block is auto-updated weekly.\n\n"
+            )
 
           with open(readme_path, "w", encoding="utf-8") as f:
-              f.write(text)
+            f.write(text)
           PY
 
       - name: Commit & push (always; with rebase+retry)
@@ -153,13 +85,13 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit --allow-empty -m "chore: weekly refresh (script+GeoJSON+README) [skip ci] $(date -u +%F)"
-
+          git commit --allow-empty -m "chore: refresh outputs & README [skip ci] $(date -u +%F)"
           for i in 1 2 3; do
             if git push origin HEAD:main; then
-              echo "Push succeeded."
-              break
+              exit 0
             fi
-            echo "Push failed (attempt $i). Rebasing onto latest origin/main and retrying..."
+            echo "Push failed (attempt $i) — rebasing and retrying..."
             git pull --rebase origin main || { git rebase --abort || true; }
           done
+          echo "Push still failing after retries." >&2
+          exit 1
