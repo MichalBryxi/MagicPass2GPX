@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2025-10-15T06:31:34+00:00</time>
+    <time>2025-10-19T17:04:47+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.64506525" lon="7.735003072261634">
@@ -13,12 +13,12 @@
   <wpt lat="46.2970711" lon="7.3989488">
     <name>Anzère, ❄️ </name>
     <desc>Anzère, Ayent, Hérens, Wallis, 1972, Switzerland</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.7198508" lon="8.0366206">
     <name>Axalp, ❄️ </name>
     <desc>Axalp, Brienz (BE), Interlaken-Oberhasli administrative district, Oberland administrative region, Bern, 3855, Switzerland</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.2661477" lon="7.5395614">
     <name>Balmberg, ❄️ </name>
@@ -98,7 +98,7 @@
   <wpt lat="46.337787000000006" lon="7.229866017136018">
     <name>Glacier 3000, ❄️ </name>
     <desc>Glacier 3000, Gsteig, Obersimmental-Saanen administrative district, Oberland administrative region, Bern, Switzerland</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="47.2296201" lon="7.3836338">
     <name>Grenchenberg, ❄️ </name>
@@ -113,7 +113,7 @@
   <wpt lat="46.57316" lon="7.4851984">
     <name>Grimmialp, ❄️ </name>
     <desc>Grimmialp, Diemtigen, Frutigen-Niedersimmental administrative district, Oberland administrative region, Bern, 3754, Switzerland</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.225128" lon="7.9027064">
     <name>Gspon, ❄️ </name>
@@ -173,7 +173,7 @@
   <wpt lat="46.6760352" lon="7.1839627">
     <name>La Berra, ❄️ </name>
     <desc>La Berra, La Roche, Gruyère District, Fribourg, 1654, Switzerland</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.4203898" lon="7.106108">
     <name>La Lécherette, ❄️ </name>
@@ -263,7 +263,7 @@
   <wpt lat="46.77452445" lon="8.271634234311342">
     <name>Melchsee-Frutt, ❄️ </name>
     <desc>Melchsee-Frutt, Kerns, Obwalden, Switzerland</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.5642031" lon="7.0371126">
     <name>Moléson, ❄️ </name>
