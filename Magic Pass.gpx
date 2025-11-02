@@ -2,7 +2,447 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2025-10-26T17:06:46+00:00</time>
+    <time>2025-11-02T17:04:44+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
+  <wpt lat="46.64506525" lon="7.735003072261634">
+    <name>Aeschiallmend, ❄️ 0cm</name>
+    <desc>Aeschiallmend, Aeschi bei Spiez, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3703, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.2970711" lon="7.3989488">
+    <name>Anzère, ❄️ 0cm</name>
+    <desc>Anzère, Ayent, Hérens, Valais/Wallis, 1972, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7198508" lon="8.0366206">
+    <name>Axalp, ❄️ 0cm</name>
+    <desc>Axalp, Brienz (BE), Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3855, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="47.2661477" lon="7.5395614">
+    <name>Balmberg, ❄️ 0cm</name>
+    <desc>Balmberg, Balm bei Günsberg, Bezirk Lebern, Amtei Solothurn-Lebern, Solothurn, 4525, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7010066" lon="7.7702739539385846">
+    <name>Beatenberg-Hohwald, ❄️ 0cm</name>
+    <desc>Beatenberg-Niederhorn-Hohwald, Beatenberg, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.38257755" lon="7.979559529198946">
+    <name>Blatten-Belalp, ❄️ 33cm</name>
+    <desc>Blatten Belalp, Blatten b. Naters, Naters, Brig, Valais/Wallis, 3914, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="47.123034149999995" lon="7.0151652616539035">
+    <name>Bugnenets-Savagnières, ❄️ 0cm</name>
+    <desc>Les Bugnenets-Savagnières, 1328, Les Bugnenets, Le Pâquier (NE), Val-de-Ruz, Arrondissement administratif du Jura bernois, Région administrative du Jura bernois, Neuchâtel, 2610, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.806586749999994" lon="7.886087023859159">
+    <name>Bumbach Schangnau, ❄️ 0cm</name>
+    <desc>Bumbach - Schangnau, Hinter Leu, Bumbach, Schangnau, Verwaltungskreis Emmental, Verwaltungsregion Emmental-Oberaargau, Bern/Berne, 6197, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.596174899999994" lon="7.17930555186935">
+    <name>Charmey, ❄️ 20cm</name>
+    <desc>Charmey, Val-de-Charmey, District de la Gruyère, Fribourg/Freiburg, 1637, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="47.0863653" lon="7.0041371">
+    <name>Crêt-du-Puy, ❄️ 0cm</name>
+    <desc>Crêt-du-Puy, Val-de-Ruz, Neuchâtel, 2073, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.30548033204925" lon="8.263659490169449">
+    <name>Devero, ❄️ </name>
+    <desc>Devero, Baceno, Verbano-Cusio-Ossola, Piemonte, Italia</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.2936189" lon="7.7812181">
+    <name>Eischoll, ❄️ 0cm</name>
+    <desc>Eischoll, Westlich Raron, Valais/Wallis, 3943, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.78758" lon="7.798843">
+    <name>Eriz, ❄️ 0cm</name>
+    <desc>Eriz, Verwaltungskreis Thun, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.025975" lon="7.4810866">
+    <name>Espace Dent-Blanche (Arolla), ❄️ 140cm</name>
+    <desc>Arolla, Evolène, Hérens, Valais/Wallis, 1983, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.1129048" lon="7.4958022">
+    <name>Espace Dent-Blanche (Evolène), ❄️ 200cm</name>
+    <desc>Evolène, Hérens, Valais/Wallis, 1983, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3218031" lon="6.6147146">
+    <name>Espace Dent-Blanche (La Forclaz), ❄️ 50cm</name>
+    <desc>La Forclaz, Thonon-les-Bains, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74200, France</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.6300064" lon="7.7067758">
+    <name>Faltschen, ❄️ 0cm</name>
+    <desc>Faltschen, Reichenbach im Kandertal, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3722, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7238324" lon="7.4510429140673065">
+    <name>Gantrisch Gurnigel, ❄️ 0cm</name>
+    <desc>Gantrisch Gurnigel, Rüeggisberg, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3542396" lon="7.2054783">
+    <name>Glacier 3000, ❄️ 168cm</name>
+    <desc>Glacier 3000, 253, Route du Pillon, Ormont-Dessus, District d'Aigle, Vaud, 1865, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="47.2296201" lon="7.3836338">
+    <name>Grenchenberg, ❄️ </name>
+    <desc>Grenchenberg, Grenchen, Bezirk Lebern, Amtei Solothurn-Lebern, Région administrative du Jura bernois, Solothurn, 2540, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.16065785" lon="7.596104279634074">
+    <name>Grimentz-Zinal, ❄️ </name>
+    <desc>Zinal / Grimentz, Anniviers, Sierre, Valais/Wallis, 3961, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.57316" lon="7.4851984">
+    <name>Grimmialp, ❄️ </name>
+    <desc>Grimmialp, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.225128" lon="7.9027064">
+    <name>Gspon, ❄️ 0cm</name>
+    <desc>Gspon, Staldenried, Visp, Valais/Wallis, 3933, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7613942" lon="7.4435782">
+    <name>Gurnigelbad, ❄️ </name>
+    <desc>Gurnigelbad, Riggisberg, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, 3132, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7276046" lon="7.8646663">
+    <name>Habkern, ❄️ 0cm</name>
+    <desc>Habkern, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3804, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.8287284" lon="7.6972569">
+    <name>Heimenschwand, ❄️ </name>
+    <desc>Heimenschwand, Buchholterberg, Horrenbach-Buchen, Verwaltungskreis Thun, Verwaltungsregion Oberland, Bern/Berne, 3615, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.2467581" lon="6.5060807">
+    <name>Hirmentaz, ❄️ </name>
+    <desc>Hirmentaz, Bellevaux, Thonon-les-Bains, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74470, France</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.775266" lon="7.682735">
+    <name>Homberg, ❄️ 0cm</name>
+    <desc>Homberg, Verwaltungskreis Thun, Verwaltungsregion Oberland, Bern/Berne, 3622, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.6113953" lon="7.2761312">
+    <name>Jaun, ❄️ 10cm</name>
+    <desc>Jaun, District de la Gruyère, Fribourg/Freiburg, 1656, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.5921588" lon="7.3390803">
+    <name>Jaunpass, ❄️ 0cm</name>
+    <desc>Jaunpass, Boltigen, Verwaltungskreis Obersimmental-Saanen, Verwaltungsregion Oberland, Bern/Berne, 3766, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3271175" lon="7.7233899">
+    <name>Jeizinen, ❄️ 0cm</name>
+    <desc>Jeizinen, Engersch, Gampel-Bratsch, Leuk, Valais/Wallis, 3957, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="44.9312226" lon="26.075664802450667">
+    <name>Jura-sur-Léman (Transfrontalier), ❄️ 5cm</name>
+    <desc>Transfrontalier, Strada Pompelor, Petrotrans - Stația de pompare Ploiești Est, Teleajen, Ploiești, Prahova, 100411, România</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.58364720653741" lon="7.7269442870754">
+    <name>Kiental, ❄️ 0cm</name>
+    <desc>Kiental, Reichenbach im Kandertal, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.6760352" lon="7.1839627">
+    <name>La Berra, ❄️ 0cm</name>
+    <desc>La Berra, La Roche, District de la Gruyère, Fribourg/Freiburg, 1654, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.4203898" lon="7.106108">
+    <name>La Lécherette, ❄️ 0cm</name>
+    <desc>La Lécherette, Château-d'Oex, District de la Riviera-Pays-d’Enhaut, Vaud, 1660, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.4131389" lon="7.776432098805419">
+    <name>Lauchernalp, ❄️ 233cm</name>
+    <desc>Lauchernalp, Wiler (Lötschen), Westlich Raron, Valais/Wallis, 3918, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="45.9418675" lon="6.4271457">
+    <name>Le Grand-Bornand, ❄️ 0cm</name>
+    <desc>Le Grand-Bornand, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74450, France</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3511021" lon="7.1566435">
+    <name>Les Diablerets, ❄️ 94cm</name>
+    <desc>Les Diablerets, Ormont-Dessus, District d'Aigle, Vaud, 1865, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.2490275" lon="6.473611">
+    <name>Les Habères, ❄️ </name>
+    <desc>Les Habères, Place des Habères, Chez Berthet, Habère-Poche, Thonon-les-Bains, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74420, France</desc>
+    <sym>z-ico13</sym>
+  </wpt>
+  <wpt lat="46.1129171" lon="7.0090229">
+    <name>Les Marécottes, ❄️ 0cm</name>
+    <desc>Les Marécottes, Salvan, Saint-Maurice, Valais/Wallis, 1923, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3960939" lon="7.1018391">
+    <name>Les Mosses, ❄️ </name>
+    <desc>Les Mosses, Ormont-Dessous, District d'Aigle, Vaud, 1862, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.5220308" lon="6.9465972">
+    <name>Les Paccots, ❄️ 15cm</name>
+    <desc>Les Paccots, Châtel-Saint-Denis, District de la Veveyse, Fribourg/Freiburg, 1619, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.4820859" lon="6.9092392">
+    <name>Les Pléiades, ❄️ 0cm</name>
+    <desc>Les Pléiades, Blonay - Saint-Légier, District de la Riviera-Pays-d’Enhaut, Vaud, 1807, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="45.5328082" lon="-60.9610429">
+    <name>Les Rochers - de - Naye, ❄️ 0cm</name>
+    <desc>Les Rochers, Pondville South, Municipality of the County of Richmond, Richmond County, Nova Scotia, B0E 2L0, Canada</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3793158" lon="7.6267416">
+    <name>Leukerbad (Torrent &amp; Gemmi), ❄️ 215cm</name>
+    <desc>Leukerbad, Leuk, Valais/Wallis, 3954, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3438701" lon="7.0148403">
+    <name>Leysin, ❄️ 0cm</name>
+    <desc>Leysin, District d'Aigle, Vaud, 1854, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.8484982" lon="7.6771267">
+    <name>Linden, ❄️ </name>
+    <desc>Linden, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, 3673, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.8345927" lon="7.9058214">
+    <name>Marbachegg, ❄️ 0cm</name>
+    <desc>Marbachegg, Escholzmatt-Marbach, Luzern, 6196, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.1805475" lon="6.451604687248988">
+    <name>Massif des Brasses, ❄️ </name>
+    <desc>Massif des Brasses, Saint-Jeoire, Bonneville, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74490, France</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.253037449999994" lon="7.281119494859288">
+    <name>Mayens de Conthey, ❄️ </name>
+    <desc>Mayens de Conthey, Premploz, Conthey, Valais/Wallis, 1964, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7468975" lon="8.219472172523004">
+    <name>Meiringen-Hasliberg, ❄️ 0cm</name>
+    <desc>Meiringen-Hasliberg, Hasliberg Goldern, Hasliberg, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7741051" lon="8.2695375">
+    <name>Melchsee-Frutt, ❄️ 0cm</name>
+    <desc>Melchsee-Frutt, Kerns, Obwalden, 6068, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.5489446" lon="7.0171352">
+    <name>Moléson, ❄️ 10cm</name>
+    <desc>Le Moléson, Gruyères, District de la Gruyère, Fribourg/Freiburg, 1663, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.6928311" lon="5.5961553">
+    <name>Monts Jura, ❄️ 20cm</name>
+    <desc>Monts Jura, Route du Belvédère, La Chaumette, Pannessières, Lons-le-Saunier, Jura, Bourgogne-Franche-Comté, France métropolitaine, 39570, France</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.2515854" lon="7.8301577">
+    <name>Moosalp, ❄️ </name>
+    <desc>Moosalp, Törbel, Visp, Valais/Wallis, 3923, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7722619" lon="6.3505343">
+    <name>Métabief, ❄️ 0cm</name>
+    <desc>Métabief, Pontarlier, Doubs, Bourgogne-Franche-Comté, France métropolitaine, 25370, France</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.825086" lon="8.1095816">
+    <name>Mörlialp Giswil, ❄️ </name>
+    <desc>Mörlialp, Giswil, Obwalden, 6074, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.2287612" lon="7.4346135">
+    <name>Nax - Mt-Noble, ❄️ </name>
+    <desc>Nax, Espace Mont-Noble, Le Largey, Nax, Mont-Noble, Hérens, Valais/Wallis, 1973, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7117062" lon="7.7770938">
+    <name>Niederhorn, ❄️ </name>
+    <desc>Niederhorn, Sigriswil, Horrenbach-Buchen, Verwaltungskreis Thun, Verwaltungsregion Oberland, Bern/Berne, 3803, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.735242549999995" lon="7.3631289938304425">
+    <name>Ottenleue, ❄️ 0cm</name>
+    <desc>Ottenleue, Ottenleuebad, Guggisberg, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, 1738, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.1989846" lon="7.1723377">
+    <name>Ovronnaz, ❄️ 0cm</name>
+    <desc>Ovronnaz, Leytron, Martigny, Valais/Wallis, 1911, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.15746735" lon="6.569485399496548">
+    <name>Praz de Lys – Sommand, ❄️ 0cm</name>
+    <desc>Praz de Lys Sommand, Mieussy, Bonneville, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74440, France</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="47.153439" lon="7.176948">
+    <name>Prés-d'Orvin, ❄️ 0cm</name>
+    <desc>Les Prés-d'Orvin, Orvin, Arrondissement administratif du Jura bernois, Région administrative du Jura bernois, Bern/Berne, 2534, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.54190605" lon="6.974740561418216">
+    <name>Rathvel, ❄️ 0cm</name>
+    <desc>Rathvel, Châtel-Saint-Denis, District de la Veveyse, Fribourg/Freiburg, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7653088" lon="7.3533298">
+    <name>Riffenmatt, ❄️ 0cm</name>
+    <desc>Riffenmatt, Guggisberg, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, 3158, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.8752631" lon="6.5479361">
+    <name>Robella Val-de-Travers, ❄️ 0cm</name>
+    <desc>La Petite-Robella, Buttes, Val-de-Travers, Neuchâtel, 2115, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.6401196" lon="7.4456496">
+    <name>Rossberg, ❄️ 0cm</name>
+    <desc>Rossberg, Oberwil im Simmental, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3765, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3045036" lon="8.0426994">
+    <name>Rosswald, ❄️ 70cm</name>
+    <desc>Rosswald, Termen, Brig, Valais/Wallis, 3913, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7712929" lon="7.4036704">
+    <name>Rüschegg, ❄️ 0cm</name>
+    <desc>Rüschegg, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.1009456" lon="7.9513161">
+    <name>Saas-Fee / Saas-Almagell, ❄️ 175cm</name>
+    <desc>Saas-Almagell, Alpien, Saas-Fee, Saas-Almagell, Visp, Valais/Wallis, 3905, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico13</sym>
+  </wpt>
+  <wpt lat="46.4460968" lon="6.158111">
+    <name>Saint-Cergue, ❄️ 0cm</name>
+    <desc>Saint-Cergue, District de Nyon, Vaud, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="42.02385117169189" lon="13.750775070075347">
+    <name>San Domenico, ❄️ </name>
+    <desc>San Domenico, Strada dei Parchi, Cocullo, L'Aquila, Abruzzo, Italia</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="47.0364334" lon="7.4019812">
+    <name>Schwanden, ❄️ 0cm</name>
+    <desc>Schwanden, Schüpfen, Verwaltungskreis Seeland, Verwaltungsregion Seeland, Bern/Berne, 3054, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.66513645" lon="7.280643975442837">
+    <name>Schwarzsee, ❄️ 0cm</name>
+    <desc>Schwarzsee, Plaffeien, Sensebezirk, Fribourg/Freiburg, 1716, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.743126649999994" lon="7.389737503359043">
+    <name>Selital, ❄️ </name>
+    <desc>Selital, Rüschegg, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, 1738, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.6191588" lon="7.5751463">
+    <name>Springenboden, ❄️ 0cm</name>
+    <desc>Springenboden, 34, Gsässweid, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3755, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.236536" lon="7.627631245237188">
+    <name>St-Luc / Chandolin, ❄️ 80cm</name>
+    <desc>Saint Luc - Chandolin, Anniviers, Sierre, Valais/Wallis, 3961, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.8344744" lon="6.538928337155845">
+    <name>Ste-Croix/Les Rasses, ❄️ 0cm</name>
+    <desc>Sainte-Croix / Les Rasses, Les Rasses, Bullet, District du Jura-Nord vaudois, Vaud, 1452, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.8221657" lon="8.0349311">
+    <name>Sörenberg, ❄️ 160cm</name>
+    <desc>Sörenberg, Flühli, Luzern, 6174, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3910383" lon="6.6989377">
+    <name>Thollon Les Mémises, ❄️ 77cm</name>
+    <desc>Thollon-les-Mémises, Thonon-les-Bains, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74500, France</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="47.223677" lon="7.1030216">
+    <name>Tramelan, ❄️ 0cm</name>
+    <desc>Tramelan, Arrondissement administratif du Jura bernois, Région administrative du Jura bernois, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.260928899999996" lon="7.779865291421668">
+    <name>Unterbäch, ❄️ 130cm</name>
+    <desc>Unterbäch, Westlich Raron, Valais/Wallis, 3944, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.61011775" lon="6.2458972500000005">
+    <name>Vallée de Joux, ❄️ </name>
+    <desc>Vallée de Joux, Le Chenit, District du Jura-Nord vaudois, Vaud, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.2571655" lon="7.530704">
+    <name>Vercorin, ❄️ 150cm</name>
+    <desc>Vercorin, Chalais, Sierre, Valais/Wallis, 3967, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.3289335" lon="7.1096087000666675">
+    <name>Villars-Gryon, ❄️ 0cm</name>
+    <desc>Villars/Gryon/Les Diablerets, Ormont-Dessous, District d'Aigle, Vaud, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.2589888" lon="7.9030118">
+    <name>Visperterminen, ❄️ 30cm</name>
+    <desc>Visperterminen, Visp, Valais/Wallis, 3932, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.7238301" lon="7.7401817">
+    <name>Wilerallmi, ❄️ </name>
+    <desc>Wilerallmi, Wilerallmistrasse, Sigriswil, Horrenbach-Buchen, Verwaltungskreis Thun, Verwaltungsregion Oberland, Bern/Berne, 3657, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.5802462" lon="7.529654">
+    <name>Wiriehorn, ❄️ </name>
+    <desc>Wiriehorn, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
 </gpx>
