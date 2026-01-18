@@ -2,28 +2,28 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-01-11T17:04:24+00:00</time>
+    <time>2026-01-18T17:04:31+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
-    <name>Aeschiallmend, ❄️ 12/12 km</name>
+    <name>Aeschiallmend, ❄️ 0/12 km</name>
     <desc>Aeschiallmend, Aeschi bei Spiez, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3703, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.2970711" lon="7.3989488">
-    <name>Anzère, ❄️ 21/57 km</name>
+    <name>Anzère, ❄️ 42/57 km</name>
     <desc>Anzère, Ayent, Hérens, Valais/Wallis, 1972, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.7198508" lon="8.0366206">
-    <name>Axalp, ❄️ 9/15 km</name>
+    <name>Axalp, ❄️ 11/15 km</name>
     <desc>Axalp, Brienz (BE), Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3855, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.2661477" lon="7.5395614">
-    <name>Balmberg, ❄️ 0.3/5 km</name>
+    <name>Balmberg, ❄️ 0/5 km</name>
     <desc>Balmberg, Balm bei Günsberg, Bezirk Lebern, Amtei Solothurn-Lebern, Solothurn, 4525, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.7010066" lon="7.770274">
     <name>Beatenberg-Hohwald, ❄️ 0/0 km</name>
@@ -31,27 +31,27 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.3825776" lon="7.9795595">
-    <name>Blatten-Belalp, ❄️ 11/45 km</name>
+    <name>Blatten-Belalp, ❄️ 18/45 km</name>
     <desc>Blatten Belalp, Blatten b. Naters, Naters, Brig, Valais/Wallis, 3914, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.1230341" lon="7.0151653">
-    <name>Bugnenets-Savagnières, ❄️ 3/30 km</name>
+    <name>Bugnenets-Savagnières, ❄️ 1/30 km</name>
     <desc>Les Bugnenets-Savagnières, Route de Chasseral, Nods, Arrondissement administratif du Jura bernois, Région administrative du Jura bernois, Bern/Berne, 2610, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.8065867" lon="7.886087">
-    <name>Bumbach Schangnau, ❄️ 4/9 km</name>
+    <name>Bumbach Schangnau, ❄️ 9/10 km</name>
     <desc>Bumbach - Schangnau, Hinter Leu, Bumbach, Schangnau, Verwaltungskreis Emmental, Verwaltungsregion Emmental-Oberaargau, Bern/Berne, 6197, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.5961749" lon="7.1793056">
-    <name>Charmey, ❄️ 14/30 km</name>
+    <name>Charmey, ❄️ 11/30 km</name>
     <desc>Charmey, Val-de-Charmey, District de la Gruyère, Fribourg/Freiburg, 1637, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.0863653" lon="7.0041371">
-    <name>Crêt-du-Puy, ❄️ 10/10 km</name>
+    <name>Crêt-du-Puy, ❄️ 1/10 km</name>
     <desc>Crêt-du-Puy, Val-de-Ruz, Neuchâtel, 2073, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -71,12 +71,12 @@
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.025975" lon="7.4810866">
-    <name>Espace Dent-Blanche (Arolla), ❄️ 15/36 km</name>
+    <name>Espace Dent-Blanche (Arolla), ❄️ 32/36 km</name>
     <desc>Arolla, Evolène, Hérens, Valais/Wallis, 1983, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.1129048" lon="7.4958022">
-    <name>Espace Dent-Blanche (Evolène), ❄️ 19/44 km</name>
+    <name>Espace Dent-Blanche (Evolène), ❄️ 32/44 km</name>
     <desc>Evolène, Hérens, Valais/Wallis, 1983, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -96,7 +96,7 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.337787" lon="7.229866">
-    <name>Glacier 3000, ❄️ 22/31 km</name>
+    <name>Glacier 3000, ❄️ 25/31 km</name>
     <desc>Glacier 3000, Gsteig, Verwaltungskreis Obersimmental-Saanen, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -106,7 +106,7 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.1606579" lon="7.5961043">
-    <name>Grimentz-Zinal, ❄️ 73/115 km</name>
+    <name>Grimentz-Zinal, ❄️ 90/115 km</name>
     <desc>Zinal / Grimentz, Anniviers, Sierre, Valais/Wallis, 3961, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -116,9 +116,9 @@
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.225128" lon="7.9027064">
-    <name>Gspon, ❄️ 3.5/5 km</name>
+    <name>Gspon, ❄️ 0/5 km</name>
     <desc>Gspon, Staldenried, Visp, Valais/Wallis, 3933, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.7613942" lon="7.4435782">
     <name>Gurnigelbad, ❄️ 0/2 km</name>
@@ -128,7 +128,7 @@
   <wpt lat="46.7276046" lon="7.8646663">
     <name>Habkern, ❄️ 0/8 km</name>
     <desc>Habkern, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3804, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.8287284" lon="7.6972569">
     <name>Heimenschwand, ❄️ 0/1 km</name>
@@ -146,42 +146,42 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.6113953" lon="7.2761312">
-    <name>Jaun, ❄️ 11/25 km</name>
+    <name>Jaun, ❄️ 12/25 km</name>
     <desc>Jaun, District de la Gruyère, Fribourg/Freiburg, 1656, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.5921588" lon="7.3390803">
-    <name>Jaunpass, ❄️ 3/6 km</name>
+    <name>Jaunpass, ❄️ 3.5/6 km</name>
     <desc>Jaunpass, Boltigen, Verwaltungskreis Obersimmental-Saanen, Verwaltungsregion Oberland, Bern/Berne, 3766, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3271175" lon="7.7233899">
-    <name>Jeizinen, ❄️ 6/9.9 km</name>
+    <name>Jeizinen, ❄️ 8/9.9 km</name>
     <desc>Jeizinen, Engersch, Gampel-Bratsch, Leuk, Valais/Wallis, 3957, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="44.9312226" lon="26.0756648">
-    <name>Jura-sur-Léman (Transfrontalier), ❄️ 11.3/33.7 km</name>
+    <name>Jura-sur-Léman (Transfrontalier), ❄️ 10.4/33.7 km</name>
     <desc>Transfrontalier, Strada Pompelor, Petrotrans - Stația de pompare Ploiești Est, Teleajen, Ploiești, Prahova, 100411, România</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.5836472" lon="7.7269443">
-    <name>Kiental, ❄️ 0/1.3 km</name>
+    <name>Kiental, ❄️ 1.3/1.3 km</name>
     <desc>Kiental, Reichenbach im Kandertal, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.6760352" lon="7.1839627">
-    <name>La Berra, ❄️ 14/20 km</name>
+    <name>La Berra, ❄️ 5/20 km</name>
     <desc>La Berra, La Roche, District de la Gruyère, Fribourg/Freiburg, 1654, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.4131389" lon="7.7764321">
-    <name>Lauchernalp, ❄️ 28/40 km</name>
+    <name>Lauchernalp, ❄️ 30/38 km</name>
     <desc>Lauchernalp, Wiler (Lötschen), Westlich Raron, Valais/Wallis, 3918, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="45.9418675" lon="6.4271457">
-    <name>Le Grand-Bornand, ❄️ 73.4/77.7 km</name>
+    <name>Le Grand-Bornand, ❄️ 74.6/77.7 km</name>
     <desc>Le Grand-Bornand, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74450, France</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -196,19 +196,19 @@
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.1129171" lon="7.0090229">
-    <name>Les Marécottes, ❄️ 16/27 km</name>
+    <name>Les Marécottes, ❄️ 19/27 km</name>
     <desc>Les Marécottes, Salvan, Saint-Maurice, Valais/Wallis, 1923, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.5220308" lon="6.9465972">
-    <name>Les Paccots, ❄️ 3/15 km</name>
+    <name>Les Paccots, ❄️ 8/15 km</name>
     <desc>Les Paccots, Châtel-Saint-Denis, District de la Veveyse, Fribourg/Freiburg, 1619, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.4820859" lon="6.9092392">
     <name>Les Pléiades, ❄️ 0/7.9 km</name>
     <desc>Les Pléiades, Blonay - Saint-Légier, District de la Riviera-Pays-d’Enhaut, Vaud, 1807, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="45.5328082" lon="-60.9610429">
     <name>Les Rochers - de - Naye, ❄️ 0/8 km</name>
@@ -216,12 +216,12 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.3793158" lon="7.6267416">
-    <name>Leukerbad (Torrent &amp; Gemmi), ❄️ 10/25 km</name>
+    <name>Leukerbad (Torrent &amp; Gemmi), ❄️ 25/25 km</name>
     <desc>Leukerbad, Leuk, Valais/Wallis, 3954, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3438701" lon="7.0148403">
-    <name>Leysin, ❄️ 28/60 km</name>
+    <name>Leysin, ❄️ 34/60 km</name>
     <desc>Leysin, District d'Aigle, Vaud, 1854, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -231,7 +231,7 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.8345927" lon="7.9058214">
-    <name>Marbachegg, ❄️ 7/10 km</name>
+    <name>Marbachegg, ❄️ 8/10 km</name>
     <desc>Marbachegg, Escholzmatt-Marbach, Luzern, 6196, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -246,7 +246,7 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.7468975" lon="8.2194722">
-    <name>Meiringen-Hasliberg, ❄️ 23.1/60 km</name>
+    <name>Meiringen-Hasliberg, ❄️ 33.7/60 km</name>
     <desc>Meiringen-Hasliberg, Hasliberg Hohfluh, Hasliberg, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -256,27 +256,27 @@
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.7722619" lon="6.3505343">
-    <name>Métabief, ❄️ 19.4/25.6 km</name>
+    <name>Métabief, ❄️ 11/25.6 km</name>
     <desc>Métabief, Pontarlier, Doubs, Bourgogne-Franche-Comté, France métropolitaine, 25370, France</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.5489446" lon="7.0171352">
-    <name>Moléson, ❄️ 25/30 km</name>
+    <name>Moléson, ❄️ 20/30 km</name>
     <desc>Le Moléson, Gruyères, District de la Gruyère, Fribourg/Freiburg, 1663, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.6930679" lon="5.5967118">
-    <name>Monts Jura, ❄️ 23.9/35.4 km</name>
+    <name>Monts Jura, ❄️ 18.8/35.4 km</name>
     <desc>Monts Jura, Route du Belvédère, La Chaumette, Pannessières, Lons-le-Saunier, Jura, Bourgogne-Franche-Comté, France métropolitaine, 39570, France</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.2515854" lon="7.8301577">
-    <name>Moosalp, ❄️ 7/19 km</name>
+    <name>Moosalp, ❄️ 9/19 km</name>
     <desc>Moosalp, Törbel, Visp, Valais/Wallis, 3923, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.825086" lon="8.1095816">
-    <name>Mörlialp Giswil, ❄️ 6/10.7 km</name>
+    <name>Mörlialp Giswil, ❄️ 9.5/10.7 km</name>
     <desc>Mörlialp, Giswil, Obwalden, 6074, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -296,22 +296,22 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.1989846" lon="7.1723377">
-    <name>Ovronnaz, ❄️ 41/47 km</name>
+    <name>Ovronnaz, ❄️ 26/30 km</name>
     <desc>Ovronnaz, Leytron, Martigny, Valais/Wallis, 1911, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.1574674" lon="6.5694854">
-    <name>Praz de Lys – Sommand, ❄️ 41.8/66.5 km</name>
+    <name>Praz de Lys – Sommand, ❄️ 51.5/66.5 km</name>
     <desc>Praz de Lys Sommand, Mieussy, Bonneville, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74440, France</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.153439" lon="7.176948">
     <name>Prés-d'Orvin, ❄️ 0/5 km</name>
     <desc>Les Prés-d'Orvin, Orvin, Arrondissement administratif du Jura bernois, Région administrative du Jura bernois, Bern/Berne, 2534, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.5419061" lon="6.9747406">
-    <name>Rathvel, ❄️ 4/8 km</name>
+    <name>Rathvel, ❄️ 3.6/8 km</name>
     <desc>Rathvel, Châtel-Saint-Denis, District de la Veveyse, Fribourg/Freiburg, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -326,12 +326,12 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.6401196" lon="7.4456496">
-    <name>Rossberg, ❄️ 7/7 km</name>
+    <name>Rossberg, ❄️ 4/7 km</name>
     <desc>Rossberg, Oberwil im Simmental, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3765, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3045036" lon="8.0426994">
-    <name>Rosswald, ❄️ 17/19 km</name>
+    <name>Rosswald, ❄️ 7/19 km</name>
     <desc>Rosswald, Termen, Brig, Valais/Wallis, 3913, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -341,14 +341,14 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.1009456" lon="7.9513161">
-    <name>Saas-Fee / Saas-Almagell, ❄️ 62.8/100 km</name>
+    <name>Saas-Fee / Saas-Almagell, ❄️ 58.3/100 km</name>
     <desc>Saas-Almagell, Alpien, Saas-Fee, Saas-Almagell, Visp, Valais/Wallis, 3905, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.4460968" lon="6.158111">
-    <name>Saint-Cergue, ❄️ 2.6/2.8 km</name>
+    <name>Saint-Cergue, ❄️ 2.4/2.8 km</name>
     <desc>Saint-Cergue, District de Nyon, Vaud, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="42.0238512" lon="13.7507751">
     <name>San Domenico, ❄️ 0/0 km</name>
@@ -356,12 +356,12 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="47.0364334" lon="7.4019812">
-    <name>Schwanden, ❄️ 1/20 km</name>
+    <name>Schwanden, ❄️ 0/20 km</name>
     <desc>Schwanden, Schüpfen, Verwaltungskreis Seeland, Verwaltungsregion Seeland, Bern/Berne, 3054, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.6651365" lon="7.280644">
-    <name>Schwarzsee, ❄️ 4/20 km</name>
+    <name>Schwarzsee, ❄️ 5/20 km</name>
     <desc>Schwarzsee, Plaffeien, Sensebezirk, Fribourg/Freiburg, 1716, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -371,7 +371,7 @@
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.8221657" lon="8.0349311">
-    <name>Sörenberg, ❄️ 29.3/42 km</name>
+    <name>Sörenberg, ❄️ 38.8/42 km</name>
     <desc>Sörenberg, Flühli, Luzern, 6174, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -381,12 +381,12 @@
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.236536" lon="7.6276312">
-    <name>St-Luc / Chandolin, ❄️ 44/60 km</name>
+    <name>St-Luc / Chandolin, ❄️ 57/60 km</name>
     <desc>Saint Luc - Chandolin, Anniviers, Sierre, Valais/Wallis, 3961, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.8344744" lon="6.5389283">
-    <name>Ste-Croix/Les Rasses, ❄️ 13/18.8 km</name>
+    <name>Ste-Croix/Les Rasses, ❄️ 2/18.8 km</name>
     <desc>Sainte-Croix / Les Rasses, Les Rasses, Bullet, District du Jura-Nord vaudois, Vaud, 1452, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -396,9 +396,9 @@
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.223677" lon="7.1030216">
-    <name>Tramelan, ❄️ 12/12 km</name>
+    <name>Tramelan, ❄️ 0/12 km</name>
     <desc>Tramelan, Arrondissement administratif du Jura bernois, Région administrative du Jura bernois, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.2609289" lon="7.7798653">
     <name>Unterbäch, ❄️ 13/20 km</name>
@@ -406,7 +406,7 @@
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.6101178" lon="6.2458973">
-    <name>Vallée de Joux, ❄️ 16/23 km</name>
+    <name>Vallée de Joux, ❄️ 1/23 km</name>
     <desc>Vallée de Joux, Le Chenit, District du Jura-Nord vaudois, Vaud, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -416,7 +416,7 @@
     <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3289335" lon="7.1096087">
-    <name>Villars-Gryon, ❄️ 40/65 km</name>
+    <name>Villars-Gryon, ❄️ 38/65 km</name>
     <desc>Villars/Gryon/Les Diablerets, Ormont-Dessous, District d'Aigle, Vaud, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
