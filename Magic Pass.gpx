@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-04-12T17:12:10+00:00</time>
+    <time>2026-04-19T17:13:27+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
@@ -53,7 +53,7 @@
   <wpt lat="46.5961749" lon="7.1793056">
     <name>Charmey, ❄️ 0/30 km</name>
     <desc>Charmey, Val-de-Charmey, District de la Gruyère, Fribourg/Freiburg, 1637, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="47.0863653" lon="7.0041371">
     <name>Crêt-du-Puy, ❄️ 0/10 km</name>
@@ -81,7 +81,7 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.025975" lon="7.4810866">
-    <name>Espace Dent-Blanche (Arolla), ❄️ 31/36 km</name>
+    <name>Espace Dent-Blanche (Arolla), ❄️ 25/36 km</name>
     <desc>Arolla, Evolène, Hérens, Valais/Wallis, 1983, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -106,7 +106,7 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.337787" lon="7.229866">
-    <name>Glacier 3000, ❄️ 18/31 km</name>
+    <name>Glacier 3000, ❄️ 25/31 km</name>
     <desc>Glacier 3000, Gsteig, Verwaltungskreis Obersimmental-Saanen, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
@@ -116,9 +116,9 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.1606579" lon="7.5961043">
-    <name>Grimentz-Zinal, ❄️ 90/115 km</name>
+    <name>Grimentz-Zinal, ❄️ 0/115 km</name>
     <desc>Zinal / Grimentz, Anniviers, Sierre, Valais/Wallis, 3961, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.57316" lon="7.4851984">
     <name>Grimmialp, ❄️ 0/10 km</name>
@@ -206,9 +206,9 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.3511021" lon="7.1566435">
-    <name>Les Diablerets, ❄️ 4/25 km</name>
+    <name>Les Diablerets, ❄️ 0/25 km</name>
     <desc>Les Diablerets, Ormont-Dessus, District d'Aigle, Vaud, 1865, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.2490275" lon="6.473611">
     <name>Les Habères, ❄️ 0/15 km</name>
@@ -441,7 +441,7 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.2571655" lon="7.530704">
-    <name>Vercorin, ❄️ 28/36 km</name>
+    <name>Vercorin, ❄️ 25/36 km</name>
     <desc>Vercorin, Chalais, Sierre, Valais/Wallis, 3967, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico13</sym>
   </wpt>
