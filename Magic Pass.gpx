@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-04-19T17:13:27+00:00</time>
+    <time>2026-04-26T17:15:42+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
@@ -53,7 +53,7 @@
   <wpt lat="46.5961749" lon="7.1793056">
     <name>Charmey, ❄️ 0/30 km</name>
     <desc>Charmey, Val-de-Charmey, District de la Gruyère, Fribourg/Freiburg, 1637, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.0863653" lon="7.0041371">
     <name>Crêt-du-Puy, ❄️ 0/10 km</name>
@@ -81,9 +81,9 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.025975" lon="7.4810866">
-    <name>Espace Dent-Blanche (Arolla), ❄️ 25/36 km</name>
+    <name>Espace Dent-Blanche (Arolla), ❄️ 0/36 km</name>
     <desc>Arolla, Evolène, Hérens, Valais/Wallis, 1983, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.1129048" lon="7.4958022">
     <name>Espace Dent-Blanche (Evolène), ❄️ 0/44 km</name>
@@ -238,7 +238,7 @@
   <wpt lat="46.3793158" lon="7.6267416">
     <name>Leukerbad (Torrent &amp; Gemmi), ❄️ 0/50 km</name>
     <desc>Leukerbad, Leuk, Valais/Wallis, 3954, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.3438701" lon="7.0148403">
     <name>Leysin, ❄️ 0/60 km</name>
@@ -268,7 +268,7 @@
   <wpt lat="46.7468975" lon="8.2194722">
     <name>Meiringen-Hasliberg, ❄️ 0/60 km</name>
     <desc>Meiringen-Hasliberg, Hasliberg Hohfluh, Hasliberg, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.7741051" lon="8.2695375">
     <name>Melchsee-Frutt, ❄️ 0/40 km</name>
@@ -360,10 +360,15 @@
     <desc>Rüschegg, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
     <sym>z-ico02</sym>
   </wpt>
-  <wpt lat="46.1009456" lon="7.9513161">
-    <name>Saas-Fee / Saas-Almagell, ❄️ 78.8/100 km</name>
-    <desc>Saas-Almagell, Alpien, Saas-Fee, Saas-Almagell, Visp, Valais/Wallis, 3905, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+  <wpt lat="46.0938913" lon="7.9582333">
+    <name>Saas-Almagell, ❄️ 0/15.4 km</name>
+    <desc>Saas-Almagell, Visp, Valais/Wallis, 3905, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
+  </wpt>
+  <wpt lat="46.107342" lon="7.9247055">
+    <name>Saas-Fee, ❄️ 0/100 km</name>
+    <desc>Saas-Fee, Visp, Valais/Wallis, 3906, Schweiz/Suisse/Svizzera/Svizra</desc>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.4460968" lon="6.158111">
     <name>Saint-Cergue, ❄️ 0/2.8 km</name>
@@ -371,9 +376,9 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="42.0238512" lon="13.7507751">
-    <name>San Domenico, ❄️ 20/35 km</name>
+    <name>San Domenico, ❄️ 0/35 km</name>
     <desc>San Domenico, Strada dei Parchi, Carrito, Ortona dei Marsi, L'Aquila, Abruzzo, Italia</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="47.0698929" lon="8.6476075">
     <name>Sattel-Hochstuckli, ❄️ 0/1.8 km</name>
@@ -441,9 +446,9 @@
     <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.2571655" lon="7.530704">
-    <name>Vercorin, ❄️ 25/36 km</name>
+    <name>Vercorin, ❄️ 0/36 km</name>
     <desc>Vercorin, Chalais, Sierre, Valais/Wallis, 3967, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.3289335" lon="7.1096087">
     <name>Villars-Gryon, ❄️ 0/65 km</name>
@@ -463,6 +468,6 @@
   <wpt lat="46.5802462" lon="7.529654">
     <name>Wiriehorn, ❄️ 0/17 km</name>
     <desc>Wiriehorn, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
 </gpx>
