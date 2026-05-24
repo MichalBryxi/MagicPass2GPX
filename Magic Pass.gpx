@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-05-17T17:23:04+00:00</time>
+    <time>2026-05-24T17:22:56+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
@@ -18,7 +18,7 @@
   <wpt lat="46.7198508" lon="8.0366206">
     <name>Axalp, ❄️ </name>
     <desc>Axalp, Brienz (BE), Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3855, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.2661477" lon="7.5395614">
     <name>Balmberg, ❄️ </name>
@@ -123,7 +123,7 @@
   <wpt lat="46.57316" lon="7.4851984">
     <name>Grimmialp, ❄️ </name>
     <desc>Grimmialp, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.225128" lon="7.9027064">
     <name>Gspon, ❄️ </name>
@@ -163,7 +163,7 @@
   <wpt lat="46.6113953" lon="7.2761312">
     <name>Jaun, ❄️ </name>
     <desc>Jaun, District de la Gruyère, Fribourg/Freiburg, 1656, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.5921588" lon="7.3390803">
     <name>Jaunpass, ❄️ </name>
@@ -188,7 +188,7 @@
   <wpt lat="46.930401" lon="8.4790604">
     <name>Klewenalp-Stockhütte, ❄️ </name>
     <desc>Klewenalp - Stockhütte, Beckenried, Nidwalden, 6375, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.6760352" lon="7.1839627">
     <name>La Berra, ❄️ </name>
@@ -238,7 +238,7 @@
   <wpt lat="46.3793158" lon="7.6267416">
     <name>Leukerbad (Torrent &amp; Gemmi), ❄️ </name>
     <desc>Leukerbad, Leuk, Valais/Wallis, 3954, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3438701" lon="7.0148403">
     <name>Leysin, ❄️ </name>
@@ -268,7 +268,7 @@
   <wpt lat="46.7468975" lon="8.2194722">
     <name>Meiringen-Hasliberg, ❄️ </name>
     <desc>Meiringen-Hasliberg, Hasliberg Hohfluh, Hasliberg, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.7741051" lon="8.2695375">
     <name>Melchsee-Frutt, ❄️ </name>
@@ -413,7 +413,7 @@
   <wpt lat="46.236536" lon="7.6276312">
     <name>St-Luc / Chandolin, ❄️ </name>
     <desc>Saint Luc - Chandolin, Anniviers, Sierre, Valais/Wallis, 3961, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.8344744" lon="6.5389283">
     <name>Ste-Croix/Les Rasses, ❄️ </name>
@@ -468,6 +468,6 @@
   <wpt lat="46.5802462" lon="7.529654">
     <name>Wiriehorn, ❄️ </name>
     <desc>Wiriehorn, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
 </gpx>
