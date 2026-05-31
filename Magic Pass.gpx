@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-05-24T17:22:56+00:00</time>
+    <time>2026-05-31T17:25:25+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
@@ -18,7 +18,7 @@
   <wpt lat="46.7198508" lon="8.0366206">
     <name>Axalp, ❄️ </name>
     <desc>Axalp, Brienz (BE), Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3855, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="47.2661477" lon="7.5395614">
     <name>Balmberg, ❄️ </name>
@@ -68,7 +68,7 @@
   <wpt lat="46.1026049" lon="8.2565595">
     <name>Domobianca, ❄️ </name>
     <desc>Domobianca, Domodossola, Verbano-Cusio-Ossola, Piemonte, 28844, Italia</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.2936189" lon="7.7812181">
     <name>Eischoll, ❄️ </name>
@@ -163,7 +163,7 @@
   <wpt lat="46.6113953" lon="7.2761312">
     <name>Jaun, ❄️ </name>
     <desc>Jaun, District de la Gruyère, Fribourg/Freiburg, 1656, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.5921588" lon="7.3390803">
     <name>Jaunpass, ❄️ </name>
