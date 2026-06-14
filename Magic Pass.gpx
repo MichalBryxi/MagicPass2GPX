@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-06-07T17:29:59+00:00</time>
+    <time>2026-06-14T17:30:57+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
@@ -273,7 +273,7 @@
   <wpt lat="46.7741051" lon="8.2695375">
     <name>Melchsee-Frutt, ❄️ </name>
     <desc>Melchsee-Frutt, Kerns, Obwalden, 6068, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.7722619" lon="6.3505343">
     <name>Métabief, ❄️ </name>
@@ -288,7 +288,7 @@
   <wpt lat="46.6930679" lon="5.5967118">
     <name>Monts Jura, ❄️ </name>
     <desc>Monts Jura, Route du Belvédère, La Chaumette, Pannessières, Lons-le-Saunier, Jura, Bourgogne-Franche-Comté, France métropolitaine, 39570, France</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.2515854" lon="7.8301577">
     <name>Moosalp, ❄️ </name>
@@ -318,7 +318,7 @@
   <wpt lat="46.1989846" lon="7.1723377">
     <name>Ovronnaz, ❄️ </name>
     <desc>Ovronnaz, Leytron, Martigny, Valais/Wallis, 1911, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.1574674" lon="6.5694854">
     <name>Praz de Lys – Sommand, ❄️ </name>
@@ -368,7 +368,7 @@
   <wpt lat="46.107342" lon="7.9247055">
     <name>Saas-Fee, ❄️ </name>
     <desc>Saas-Fee, Visp, Valais/Wallis, 3906, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.4460968" lon="6.158111">
     <name>Saint-Cergue, ❄️ </name>
