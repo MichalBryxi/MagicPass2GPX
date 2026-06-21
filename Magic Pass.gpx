@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-06-14T17:30:57+00:00</time>
+    <time>2026-06-21T17:32:16+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
@@ -68,7 +68,7 @@
   <wpt lat="46.1026049" lon="8.2565595">
     <name>Domobianca, ❄️ </name>
     <desc>Domobianca, Domodossola, Verbano-Cusio-Ossola, Piemonte, 28844, Italia</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.2936189" lon="7.7812181">
     <name>Eischoll, ❄️ </name>
@@ -203,7 +203,7 @@
   <wpt lat="45.9418675" lon="6.4271457">
     <name>Le Grand-Bornand, ❄️ </name>
     <desc>Le Grand-Bornand, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74450, France</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3511021" lon="7.1566435">
     <name>Les Diablerets, ❄️ </name>
@@ -238,7 +238,7 @@
   <wpt lat="46.3793158" lon="7.6267416">
     <name>Leukerbad (Torrent &amp; Gemmi), ❄️ </name>
     <desc>Leukerbad, Leuk, Valais/Wallis, 3954, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.3438701" lon="7.0148403">
     <name>Leysin, ❄️ </name>
@@ -458,7 +458,7 @@
   <wpt lat="46.2589888" lon="7.9030118">
     <name>Visperterminen, ❄️ </name>
     <desc>Visperterminen, Visp, Valais/Wallis, 3932, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.7230814" lon="7.7408084">
     <name>Wilerallmi, ❄️ </name>
@@ -468,6 +468,6 @@
   <wpt lat="46.5802462" lon="7.529654">
     <name>Wiriehorn, ❄️ </name>
     <desc>Wiriehorn, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
 </gpx>
