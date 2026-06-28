@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-06-21T17:32:16+00:00</time>
+    <time>2026-06-28T17:27:25+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
@@ -13,7 +13,7 @@
   <wpt lat="46.2970711" lon="7.3989488">
     <name>Anzère, ❄️ </name>
     <desc>Anzère, Ayent, Hérens, Valais/Wallis, 1972, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.7198508" lon="8.0366206">
     <name>Axalp, ❄️ </name>
@@ -68,7 +68,7 @@
   <wpt lat="46.1026049" lon="8.2565595">
     <name>Domobianca, ❄️ </name>
     <desc>Domobianca, Domodossola, Verbano-Cusio-Ossola, Piemonte, 28844, Italia</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico20</sym>
   </wpt>
   <wpt lat="46.2936189" lon="7.7812181">
     <name>Eischoll, ❄️ </name>
@@ -118,12 +118,12 @@
   <wpt lat="46.1606579" lon="7.5961043">
     <name>Grimentz-Zinal, ❄️ </name>
     <desc>Zinal / Grimentz, Anniviers, Sierre, Valais/Wallis, 3961, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.57316" lon="7.4851984">
     <name>Grimmialp, ❄️ </name>
     <desc>Grimmialp, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.225128" lon="7.9027064">
     <name>Gspon, ❄️ </name>
@@ -163,7 +163,7 @@
   <wpt lat="46.6113953" lon="7.2761312">
     <name>Jaun, ❄️ </name>
     <desc>Jaun, District de la Gruyère, Fribourg/Freiburg, 1656, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.5921588" lon="7.3390803">
     <name>Jaunpass, ❄️ </name>
@@ -208,7 +208,7 @@
   <wpt lat="46.3511021" lon="7.1566435">
     <name>Les Diablerets, ❄️ </name>
     <desc>Les Diablerets, Ormont-Dessus, District d'Aigle, Vaud, 1865, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.2490275" lon="6.473611">
     <name>Les Habères, ❄️ </name>
@@ -238,7 +238,7 @@
   <wpt lat="46.3793158" lon="7.6267416">
     <name>Leukerbad (Torrent &amp; Gemmi), ❄️ </name>
     <desc>Leukerbad, Leuk, Valais/Wallis, 3954, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3438701" lon="7.0148403">
     <name>Leysin, ❄️ </name>
@@ -288,7 +288,7 @@
   <wpt lat="46.6930679" lon="5.5967118">
     <name>Monts Jura, ❄️ </name>
     <desc>Monts Jura, Route du Belvédère, La Chaumette, Pannessières, Lons-le-Saunier, Jura, Bourgogne-Franche-Comté, France métropolitaine, 39570, France</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.2515854" lon="7.8301577">
     <name>Moosalp, ❄️ </name>
@@ -343,7 +343,7 @@
   <wpt lat="46.8752631" lon="6.5479361">
     <name>Robella Val-de-Travers, ❄️ </name>
     <desc>La Petite-Robella, Buttes, Val-de-Travers, Neuchâtel, 2115, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.6401196" lon="7.4456496">
     <name>Rossberg, ❄️ </name>
@@ -378,7 +378,7 @@
   <wpt lat="42.0238512" lon="13.7507751">
     <name>San Domenico, ❄️ </name>
     <desc>San Domenico, Strada dei Parchi, Carrito, Ortona dei Marsi, L'Aquila, Abruzzo, Italia</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.0698929" lon="8.6476075">
     <name>Sattel-Hochstuckli, ❄️ </name>
@@ -433,7 +433,7 @@
   <wpt lat="46.2609289" lon="7.7798653">
     <name>Unterbäch, ❄️ </name>
     <desc>Unterbäch, Westlich Raron, Valais/Wallis, 3944, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.2386586" lon="7.2724595">
     <name>Valbirse, ❄️ </name>
@@ -448,12 +448,12 @@
   <wpt lat="46.2571655" lon="7.530704">
     <name>Vercorin, ❄️ </name>
     <desc>Vercorin, Chalais, Sierre, Valais/Wallis, 3967, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.3289335" lon="7.1096087">
     <name>Villars-Gryon, ❄️ </name>
     <desc>Villars/Gryon/Les Diablerets, Ormont-Dessous, District d'Aigle, Vaud, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.2589888" lon="7.9030118">
     <name>Visperterminen, ❄️ </name>
@@ -468,6 +468,6 @@
   <wpt lat="46.5802462" lon="7.529654">
     <name>Wiriehorn, ❄️ </name>
     <desc>Wiriehorn, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
 </gpx>
