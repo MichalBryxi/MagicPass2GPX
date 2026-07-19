@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-07-12T17:54:19+00:00</time>
+    <time>2026-07-19T17:52:36+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
@@ -148,7 +148,7 @@
   <wpt lat="46.2467581" lon="6.5060807">
     <name>Hirmentaz, ❄️ </name>
     <desc>Hirmentaz, Bellevaux, Thonon-les-Bains, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74470, France</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico20</sym>
   </wpt>
   <wpt lat="47.3427629" lon="7.5798147">
     <name>Hohe Winde, ❄️ </name>
@@ -213,7 +213,7 @@
   <wpt lat="46.2490275" lon="6.473611">
     <name>Les Habères, ❄️ </name>
     <desc>Les Habères, Place des Habères, Chez Berthet, Habère-Poche, Thonon-les-Bains, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74420, France</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico20</sym>
   </wpt>
   <wpt lat="46.1129171" lon="7.0090229">
     <name>Les Marécottes, ❄️ </name>
@@ -363,7 +363,7 @@
   <wpt lat="46.0938913" lon="7.9582333">
     <name>Saas-Almagell, ❄️ </name>
     <desc>Saas-Almagell, Visp, Valais/Wallis, 3905, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.107342" lon="7.9247055">
     <name>Saas-Fee, ❄️ </name>
@@ -378,7 +378,7 @@
   <wpt lat="42.0238512" lon="13.7507751">
     <name>San Domenico, ❄️ </name>
     <desc>San Domenico, Strada dei Parchi, Carrito, Ortona dei Marsi, L'Aquila, Abruzzo, Italia</desc>
-    <sym>z-ico20</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="47.0698929" lon="8.6476075">
     <name>Sattel-Hochstuckli, ❄️ </name>
