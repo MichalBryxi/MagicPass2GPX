@@ -2,7 +2,7 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="GPX RubyGem 1.2.0 -- http://dougfales.github.io/gpx/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Magic Pass.gpx</name>
-    <time>2026-08-30T19:36:54+00:00</time>
+    <time>2026-09-06T18:47:14+00:00</time>
     <bound minlat="90.0" minlon="180.0" maxlat="-90.0" maxlon="-180.0"/>
   </metadata>
   <wpt lat="46.6450653" lon="7.7350031">
@@ -68,7 +68,7 @@
   <wpt lat="46.1026049" lon="8.2565595">
     <name>Domobianca, ❄️ </name>
     <desc>Domobianca, Domodossola, Verbano-Cusio-Ossola, Piemonte, 28844, Italia</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico20</sym>
   </wpt>
   <wpt lat="46.2936189" lon="7.7812181">
     <name>Eischoll, ❄️ </name>
@@ -123,7 +123,7 @@
   <wpt lat="46.57316" lon="7.4851984">
     <name>Grimmialp, ❄️ </name>
     <desc>Grimmialp, Diemtigen, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, 3754, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico02</sym>
+    <sym>z-ico13</sym>
   </wpt>
   <wpt lat="46.225128" lon="7.9027064">
     <name>Gspon, ❄️ </name>
@@ -148,7 +148,7 @@
   <wpt lat="46.2467581" lon="6.5060807">
     <name>Hirmentaz, ❄️ </name>
     <desc>Hirmentaz, Bellevaux, Thonon-les-Bains, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74470, France</desc>
-    <sym>z-ico20</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="47.3427629" lon="7.5798147">
     <name>Hohe Winde, ❄️ </name>
@@ -163,7 +163,7 @@
   <wpt lat="46.6113953" lon="7.2761312">
     <name>Jaun, ❄️ </name>
     <desc>Jaun, District de la Gruyère, Fribourg/Freiburg, 1656, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.5921588" lon="7.3390803">
     <name>Jaunpass, ❄️ </name>
@@ -173,7 +173,7 @@
   <wpt lat="46.3271175" lon="7.7233899">
     <name>Jeizinen, ❄️ </name>
     <desc>Jeizinen, Engersch, Gampel-Bratsch, Leuk, Valais/Wallis, 3957, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="44.9312226" lon="26.0756648">
     <name>Jura-sur-Léman (Transfrontalier), ❄️ </name>
@@ -183,7 +183,7 @@
   <wpt lat="46.5836472" lon="7.7269443">
     <name>Kiental, ❄️ </name>
     <desc>Kiental, Reichenbach im Kandertal, Verwaltungskreis Frutigen-Niedersimmental, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="46.930401" lon="8.4790604">
     <name>Klewenalp-Stockhütte, ❄️ </name>
@@ -323,7 +323,7 @@
   <wpt lat="46.1574674" lon="6.5694854">
     <name>Praz de Lys – Sommand, ❄️ </name>
     <desc>Praz de Lys Sommand, Mieussy, Bonneville, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74440, France</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="47.153439" lon="7.176948">
     <name>Prés-d'Orvin, ❄️ </name>
@@ -378,7 +378,7 @@
   <wpt lat="42.0238512" lon="13.7507751">
     <name>San Domenico, ❄️ </name>
     <desc>San Domenico, Strada dei Parchi, Carrito, Ortona dei Marsi, L'Aquila, Abruzzo, Italia</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico20</sym>
   </wpt>
   <wpt lat="47.0698929" lon="8.6476075">
     <name>Sattel-Hochstuckli, ❄️ </name>
@@ -423,7 +423,7 @@
   <wpt lat="46.3910383" lon="6.6989377">
     <name>Thollon-les-Mémises, ❄️ </name>
     <desc>Thollon-les-Mémises, Thonon-les-Bains, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74500, France</desc>
-    <sym>z-ico13</sym>
+    <sym>z-ico02</sym>
   </wpt>
   <wpt lat="47.223677" lon="7.1030216">
     <name>Tramelan, ❄️ </name>
